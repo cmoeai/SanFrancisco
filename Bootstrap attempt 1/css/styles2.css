@@ -1,0 +1,66 @@
+.common{
+    text-align: center;
+    font-family: "Georgia", 'Times New Roman', "Times", serif;
+
+}
+
+.Header{
+    background-color: rgb(236, 72, 72);
+    color: white;
+    height: 100px;
+    line-height: 100px; 
+}
+
+
+.MainBody{
+    background-color: whitesmoke;
+}
+
+.Footer{
+    height: 25px;
+    background-color: rgb(236, 72, 72);
+    color: white;
+    line-height: 25px;
+    position: fixed;
+    bottom: 0px;
+    left: 8px;
+    right: 8px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+nav{
+
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav a{
+    float: left;
+    color: black;
+    padding: 10px 13px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: rgb(255, 156, 156);
+}
+
+ul{list-style: inside;}
+
+ol{list-style-position: inside} 
+
+.tableauPlaceholder{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+   ;}
